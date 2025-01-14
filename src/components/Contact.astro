@@ -1,5 +1,10 @@
+---
+import CvIcon from "./icons/Cv-icon.astro";
+import MailIcon from "./icons/Mail-icon.astro";
+---
+
 <section id="hiring" class="scroll-mt-20">
-  <h3 class="font-bold mb-3 text-accent">¡TRABAJEMOS JUNTOS!</h3>
+  <h3 class="sticky top-0 pt-5 pb-3 bg-background/50 backdrop-blur-sm lg:static lg:p-0 lg:bg-transparent lg:backdrop-blur-0 font-bold lg:mb-6 text-accent z-50">¡TRABAJEMOS JUNTOS!</h3>
   <div class="flex flex-col gap-4 text-balance">
     <p>
       ¿Tienes algún proyecto en mente? ¿Quieres crear un sitio o una aplicación web
@@ -13,62 +18,17 @@
       de los enlaces que encontrarás a continuación.
     </p>
 
-    <div class="flex gap-4">
+    <div class="flex gap-4 flex-wrap">
       <a
         class="px-4 py-1 flex items-center gap-2 bg-accent/40 border border-accent box-border rounded-full font-bold text-lg hover:bg-accent"
         download
         href="documents/javier-hidalgo-cv.pdf"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-        >
-          <g fill="currentColor">
-            <path
-              d="M7.8 6.35c.56 0 1.01-.45 1.01-1.01S8.36 4.33 7.8 4.33s-1.01.45-1.01 1.01s.45 1.01 1.01 1.01Z"
-            ></path>
-
-            <path
-              fill-rule="evenodd"
-              d="M9.83 8.55c0-1.08-.91-1.86-2.03-1.86c-1.12 0-2.03.78-2.03 1.86v.51c0 .09.04.18.1.24c.06.06.15.1.24.1h3.38c.09 0 .18-.04.24-.1c.06-.06.1-.15.1-.24v-.51ZM5.75 11.5a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75Zm0 3a.75.75 0 0 1 .75-.75h7a.75.75 0 0 1 0 1.5h-7a.75.75 0 0 1-.75-.75Z"
-              clip-rule="evenodd"></path>
-
-            <path
-              fill-rule="evenodd"
-              d="M2.5 2.5c0-1.102.898-2 2-2h6.69c.562 0 1.092.238 1.465.631l.006.007l4.312 4.702c.359.383.527.884.527 1.36v10.3c0 1.102-.898 2-2 2h-11c-1.102 0-2-.898-2-2v-15Zm8.689 0H4.5v15h11V7.192l-4.296-4.685l-.003-.001a.041.041 0 0 0-.012-.006Z"
-              clip-rule="evenodd"></path>
-
-            <path
-              fill-rule="evenodd"
-              d="M11.19.5a1 1 0 0 1 1 1v4.7h4.31a1 1 0 1 1 0 2h-5.31a1 1 0 0 1-1-1V1.5a1 1 0 0 1 1-1Z"
-              clip-rule="evenodd"></path>
-          </g>
-        </svg>
+        <CvIcon />
         Mi CV
       </a>
       <a class="px-4 py-1 flex items-center gap-2 bg-accent/40 border border-accent box-border rounded-full font-bold text-lg hover:bg-accent" href="mailto:javierhidalgodev@gmail.com">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="20"
-          height="20"
-          viewBox="0 0 24 24"
-        >
-          <g
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-          >
-            <path
-              d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-            ></path>
-
-            <path d="m22 6l-10 7L2 6"></path>
-          </g>
-        </svg>
+        <MailIcon />
         Escríbeme
       </a>
     </div>
