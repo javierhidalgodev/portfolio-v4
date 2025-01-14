@@ -1,0 +1,123 @@
+[
+  {
+    "thumbnail": "running-goals-tracker-thumbnail.png",
+    "title": "Running Goals Tracker",
+    "description": "Aplicación web que te permite la gestión de objetivos de carrera. Desarrollada en Angular, con gestión de datos y autenticación desde Firebase.",
+    "technologies": ["Node", "Express", "MongoDB", "Vite", "React", "Material UI", "Vercel"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/shurltener",
+      "demo": "https://shurltener.vercel.app/"
+    },
+    "status": "active"
+  },
+  {
+    "thumbnail": "shurltener-thumbnail.png",
+    "title": "ShURLtener",
+    "description": "Microservicio para acortar URLs. Se trata de una aplicación completa, desarrollada con Express y MongoDB para el Back, y Vite/React/Material UI en el front. Cuenta con persistencia de datos en el cliente.",
+    "technologies": ["Node", "Express", "MongoDB", "Vite", "React", "Material UI", "Vercel"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/shurltener",
+      "demo": "https://shurltener.vercel.app/"
+    },
+    "status": "active"
+  },
+  {
+    "thumbnail": "knoweats-lp-thumbnail.png",
+    "title": "Knoweats (Landing Page)",
+    "description": "Clon de la página principal de la web de comida a domicilio Knoweats.",
+    "technologies": ["React", "TypeScript", "Tailwind", "Vite", "Vercel"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/knoweats-lp",
+      "demo": "https://knoweats-lp.vercel.app/"
+    },
+    "status": "active"
+  },
+  {
+    "thumbnail": "patientor-thumbnail.png",
+    "title": "Patientor",
+    "description": "Aplicación para gestión de pacientes. Proyecto de prueba desarollado con el stack MERN+TypeScript.",
+    "technologies": ["Node", "Express", "React", "TypeScript", "Material UI", "Vite", "Vercel"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/patientor",
+      "demo": "https://patientor-fullstackopen-front.vercel.app"
+    },
+    "status": "active"
+  },
+  {
+    "thumbnail": "weather-app-thumbnail.png",
+    "title": "Weather APP",
+    "description": "Consulta el tiempo de cualquier parte del mundo. Puedes obtener datos como la temperatura actual, máxima y mínima, velocidad del viento, humedad... Los datos consumidos vienen de la API OpenWeather.",
+    "technologies": ["HTML", "JavaScript", "Tailwind"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/weather-app",
+      "demo": "https://javierhidalgodev.github.io/weather-app/"
+    },
+    "status": "active"
+  },
+  {
+    "thumbnail": "quizz-app-thumbnail.png",
+    "title": "Quizz App",
+    "description": "Pequeña aplicación de preguntas y respuestas.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/50-projects-50-days/tree/main/46-quiz-app",
+      "demo": "https://javierhidalgodev.github.io/50-projects-50-days/46-quiz-app/"
+    },
+    "status": "inactive"
+  },
+  {
+    "thumbnail": "random-image-feed-thumbnail.png",
+    "title": "Random Image Feed",
+    "description": "Galería de imágenes generadas aleatoriamente. Se trabaja con la API de Unsplash para la obtención de las imágenes.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/50-projects-50-days/tree/main/48-random-image-feed",
+      "demo": "https://javierhidalgodev.github.io/50-projects-50-days/48-random-image-feed/ "
+    },
+    "status": "inactive"
+  },
+  {
+    "thumbnail": "50p50d-thumbnail.png",
+    "title": "50 projects 50 days",
+    "description": "En esta página te enseño 50 proyectos desarrollados con HTML+CSS+JavaScript. Esto forma parte del reto \"50 projects 50 days\" de Brad Traversy.",
+    "technologies": ["HTML","CSS", "JavaScript"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/50-projects-50-days",
+      "demo": "https://javierhidalgodev.github.io/50P50D-by-javi-hidalgo-dev/"
+    },
+    "status": "inactive"
+  },
+  {
+    "thumbnail": "spotify-artists-finder-thumbnail.png",
+    "title": "Spotify Artists Finder",
+    "description": "Con esta aplicación puedes buscar a los artistas de Spotify y su información básica. Para recuperar la información se ataca directamente a la API de Spotify.",
+    "technologies": ["HTML", "CSS", "React"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/spotify-artists-finder",
+      "demo": "https://javierhidalgodev.github.io/spotify-artists-finder/"
+    },
+    "status": "active"
+  },
+  {
+    "thumbnail": "idioms-thumbnail.png",
+    "title": "Idioms App",
+    "description": "Una aplicación para aprender las expresiones más comunes en inglés, y así naturalizar mucho más tus conversaciones.",
+    "technologies": ["HTML", "CSS", "React"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/idioms-app",
+      "demo": "https://javierhidalgodev.github.io/idioms-app/"
+    },
+    "status": "inactive"
+  },
+  {
+    "thumbnail": "all-batmans-thumbnail.png",
+    "title": "The Batmans of all time",
+    "description": "Conoce a los actores más relevantes que han interpretado a \"El Caballero Oscuro\" de DC.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Astro"],
+    "links": {
+      "repo": "https://github.com/javierhidalgodev/all-batmans",
+      "demo": "https://javierhidalgodev.github.io/all-batmans/"
+    },
+    "status": "inactive"
+  }
+]

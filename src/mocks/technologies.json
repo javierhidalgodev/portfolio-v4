@@ -1,0 +1,179 @@
+[
+    {
+        "name": "HTML5",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "level": "avanzado",
+        "summary": [
+            "Fundamentos",
+            "Elementos de contenido",
+            "Elementos multimedia",
+            "Formularios",
+            "Tables",
+            "Semántica HTML5",
+            "SEO y accesibilidad"
+        ]
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "level": "avanzado",
+        "summary": [
+            "Fundamentos",
+            "Modelo de caja",
+            "Manejo de fuentes",
+            "Posicionamiento",
+            "Flexbox y Grid",
+            "Diseño responsivo",
+            "Transiciones, transformaciones y animaciones",
+            "Pseudos-clases y pseudoelementos"
+        ]
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "level": "avanzado",
+        "summary": [
+            "Fundamentos",
+            "DOM y eventos",
+            "Funciones, anónimas y arrow functions",
+            "Objetos y clases",
+            "Métodos de iteración y manipulación de arreglos",
+            "Programación asíncrona: Axios y Fetch",
+            "Manejo y depuración de errores",
+            "APIs del navegador: Storage, Local Storage, IndexedDB"
+        ]
+    },
+    {
+        "name": "React",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "level": "intermedio",
+        "summary": [
+            "Fundamentos: JSX, propiedades y estado",
+            "Componentes funcionales",
+            "Hooks",
+            "React Router",
+            "Contextos",
+            "Pruebas unitarias con Jest"
+        ]
+    },
+    {
+        "name": "Astro",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-plain.svg",
+        "level": "intermedio",
+        "summary": [
+            "Fundamentos",
+            "Componentes y Pages",
+            "Markdown",
+            "Deploy y Build"
+        ],
+        "invert": "true"
+    },
+    {
+        "name": "Node.js",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "level": "básico"
+    },
+    {
+        "name": "Express",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        "level": "básico",
+        "summary": [
+            "Fundamentos",
+            "Middleware",
+            "Rutas y controladores"
+            ],
+        "invert": "true"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "level": "básico",
+        "summary": [
+            "Fundamentos",
+            "Modelos de datos",
+            "Queries",
+            "Mongoose"
+        ]
+    },
+    {
+        "name": "Tailwind",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+        "level": "intermedio",
+        "summary": [
+            "Fundamentos",
+            "Mobile first",
+            "Personalización de temas"
+        ]
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+        "level": "básico",
+        "summary": [
+            "Fundamentos",
+            "Grids",
+            "Formularios, tablas, listas, modales, tooltips",
+            "Responsive Design"
+        ]
+    },
+    {
+        "name": "Material UI",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-original.svg",
+        "level": "básico",
+        "summary": [
+            "Fundamentos",
+            "Manejo y modificación de componentes",
+            "Personalización de componentes"
+        ]
+    },
+    {
+        "name": "Sass",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+        "level": "intermedio",
+        "summary": [
+            "Fundamentos",
+            "Partials",
+            "Anidamiento",
+            "Mixins",
+            "Funciones, operadores, flujos, interpolación"
+        ]
+    },
+    {
+        "name": "Vite",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vitejs/vitejs-original.svg",
+        "level": "básico",
+        "summary": [
+            "Fundamentos",
+            "Configuración de variables de entorno",
+            "Configuración de build"
+        ]
+    },
+    {
+        "name": "Vercel",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg",
+        "level": "básico",
+        "invert": "true"
+    },
+    {
+        "name": "Jest",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg",
+        "level": "básico"
+    },
+    {
+        "name": "Cypress",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cypressio/cypressio-plain.svg",
+        "level": "básico",
+        "invert": "true"
+    },
+    {
+        "name": "Java",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+        "level": "básico",
+        "summary": [
+            "Fundamentos",
+            "Programación orientada a objetos",
+            "Colecciones: arrays, listas, diccionarios, sets",
+            "Entrada y salida de datos"
+        ]
+    }
+]

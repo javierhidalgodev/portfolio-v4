@@ -1,0 +1,11 @@
+:root {
+    --text: 0, 0, 0;
+    --background: 253, 253, 253;
+    --accent: 255, 72, 0;
+}
+
+.dark {
+    --text: 255, 255, 255;
+    --background: 36, 36, 36;
+    --accent: 255, 140, 0;
+}

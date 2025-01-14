@@ -1,0 +1,116 @@
+---
+import "@fontsource-variable/inter"
+import "../styles/global.css"
+import AboutMe from "../components/AboutMe.astro"
+import Experience from "../components/Experience.astro"
+import Projects from "../components/Projects.astro"
+import Contact from "../components/Contact.astro"
+import Footer from "../components/Footer.astro"
+---
+
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/global.css">
+    <title>javier/hidalgo</title>
+  </head>
+  <body class="relative lg:flex-row mx-auto bg-background text-text font-inter">
+    <button id="themeToggleBtn" class="fixed w-fit h-fit p-1 top-8 right-8 text-text bg-accent hover:bg-accent rounded-full duration-100 z-[100]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M12 2a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0V3a1 1 0 0 1 1-1zm7.071 2.929a1 1 0 0 1 0 1.414l-.707.707a1 1 0 1 1-1.414-1.414l.707-.707a1 1 0 0 1 1.414 0zm-14.142 0a1 1 0 0 1 1.414 0l.707.707A1 1 0 0 1 5.636 7.05l-.707-.707a1 1 0 0 1 0-1.414zM12 8a4 4 0 1 0 0 8a4 4 0 0 0 0-8zm-6 4a6 6 0 1 1 12 0a6 6 0 0 1-12 0zm-4 0a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2H3a1 1 0 0 1-1-1zm17 0a1 1 0 0 1 1-1h1a1 1 0 1 1 0 2h-1a1 1 0 0 1-1-1zM5.636 16.95a1 1 0 0 1 1.414 1.414l-.707.707a1 1 0 0 1-1.414-1.414l.707-.707zm11.314 1.414a1 1 0 0 1 1.414-1.414l.707.707a1 1 0 0 1-1.414 1.414l-.707-.707zM12 19a1 1 0 0 1 1 1v1a1 1 0 1 1-2 0v-1a1 1 0 0 1 1-1z"/>
+      </svg>
+    </button>
+    <div class="w-[90%] max-w-[1200px] min-h-screen mx-auto lg:flex lg:justify-between gap-4 z-30">
+      <div id="left" class="max-h-screen lg:sticky lg:top-0 lg:basis-1/2 py-20 flex flex-col justify-between text-text select-none">
+        <div id="main-presentation" class="flex flex-col gap-4">
+          <h1 class="text-5xl font-bold">javier/<span class="text-neutral-400">hidalgo</span></h1>
+          <p class="text-xl">Full Stack Developer</p>
+  
+          <p class="text-neutral-400">Madrid, España</p>
+          <div id="main-presentation__links" class="hidden mt-10 lg:flex flex-col gap-6 
+         [&>a]:w-fit [&>a]:font-semibold [&>a]:uppercase hover:[&>a]:text-accent [&>a]:duration-75">
+              <a href="#about" class="[&_svg]:hover:inline-flex">
+                <span class="flex font-normal text-neutral-400">01.</span>
+                <span class="inline-flex gap-2">Sobre Mí 
+                <svg class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                  <path fill="currentColor" fill-rule="evenodd" d="M4.22 11.78a.75.75 0 0 1 0-1.06L9.44 5.5H5.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V6.56l-5.22 5.22a.75.75 0 0 1-1.06 0" clip-rule="evenodd"/>
+                </svg></span>
+              </a>
+              <a href="#experience" class="[&_svg]:hover:inline-flex"><span class="flex font-normal text-neutral-400">02.</span>
+                <span class="inline-flex gap-2">
+                  Experiencia
+                  <svg class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                    <path fill="currentColor" fill-rule="evenodd" d="M4.22 11.78a.75.75 0 0 1 0-1.06L9.44 5.5H5.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V6.56l-5.22 5.22a.75.75 0 0 1-1.06 0" clip-rule="evenodd"/>
+                  </svg>
+                </span>
+              </a>
+              <a href="#projects" class="[&_svg]:hover:inline-flex">
+                <span class="flex font-normal text-neutral-400">03.</span>
+                <span class="inline-flex gap-2">
+                  Proyectos
+                  <svg class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                    <path fill="currentColor" fill-rule="evenodd" d="M4.22 11.78a.75.75 0 0 1 0-1.06L9.44 5.5H5.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V6.56l-5.22 5.22a.75.75 0 0 1-1.06 0" clip-rule="evenodd"/>
+                  </svg>
+                </span>
+              </a>
+              <a href="#hiring" class="[&_svg]:hover:inline-flex">
+                <span class="flex font-normal text-neutral-400">04.</span>
+                <span class="inline-flex gap-2">
+                  Contacto 
+                  <svg class="hidden" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 16 16">
+                    <path fill="currentColor" fill-rule="evenodd" d="M4.22 11.78a.75.75 0 0 1 0-1.06L9.44 5.5H5.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V6.56l-5.22 5.22a.75.75 0 0 1-1.06 0" clip-rule="evenodd"/>
+                  </svg>
+                </span>
+              </a>
+          </div>
+        </div>
+        <div id="main-links" class="flex gap-4 mt-5 [&>a]:opacity-50 hover:[&>a]:opacity-100">
+          <a href="https://github.com/javierhidalgodev" rel="noreferrer noopener" target="_blank">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              fill="currentColor"
+              class="h-6 w-6"
+              aria-hidden="true"
+              ><path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+              ></path>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/javierhidalgodev/" rel="noreferrer noopener" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6" aria-hidden="true"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path></svg>
+          </a>
+        </div>
+      </div>
+      <div id="right" class="min-h-screen lg:basis-1/2 lg:py-20 flex flex-col gap-10 lg:gap-24 text-text text-balance">
+        <AboutMe title="SOBRE MÍ" />
+        <Experience title="EXPERIENCIA" />
+        <Projects title="PROYECTOS" />
+        <Contact title="¡TRABAJEMOS JUNTOS!" />
+        <Footer />
+      </div>
+    </div>
+  </body>
+</html>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+<script>
+  const themeToggleBtn = document.querySelector("#themeToggleBtn")
+
+  themeToggleBtn?.addEventListener("click", () => {
+    const htmlDocument = document.querySelector("html")
+
+    htmlDocument && (
+      htmlDocument.classList.contains("dark")
+        ? htmlDocument.classList.remove("dark")
+        : htmlDocument.classList.add("dark")
+    )
+  })
+</script>
