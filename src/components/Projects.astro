@@ -1,17 +1,20 @@
 ---
 import projects from "../mocks/projects.json";
+import LinkArrow from "./icons/LinkArrow.astro";
 
 const { title } = Astro.props
 ---
 
-<section id="projects" class="scroll-mt-20">
-  <h3 class="sticky top-0 pt-5 pb-3 bg-background/50 backdrop-blur-sm lg:static lg:p-0 lg:bg-transparent lg:backdrop-blur-0 font-bold lg:mb-6 text-accent z-50">{ title }</h3>
-  <div class="flex flex-col gap-9 group/list">
+<section id="projects" class="scroll-mt-20 select-none">
+  <div class="sticky top-0 -mx-5 p-5 bg-background/50 backdrop-blur-sm lg:static lg:mx-auto lg:p-0 lg:bg-transparent lg:backdrop-blur-0 lg:mb-6 z-50">
+    <h3 class="font-bold text-accent">{ title }</h3>
+  </div>
+  <div class="flex flex-col gap-9 group/list max-lg:[&>:not(last-child)]:border-b max-lg:[&>:not(last-child)]:border-b-neutral-400/50">
     {
       projects.map((project) => {
         if (project.status === "active") {
           return (
-            <div class="group relative flex flex-col-reverse items-start md:flex-row gap-4 lg:group-hover/list:opacity-45 lg:hover:!opacity-100 duration-100 z-0">
+            <div class="group relative max-lg:pb-4 flex flex-col-reverse items-start md:flex-row gap-4 lg:group-hover/list:opacity-45 lg:hover:!opacity-100 duration-100 z-0">
               <div class="absolute -inset-x-4 -inset-y-4 lg:group-hover:bg-neutral-400/10 z-10" />
               <img
                 src={"images/" + project.thumbnail}
@@ -31,20 +34,7 @@ const { title } = Astro.props
                   <span class="absolute -inset-x-4 -inset-y-4" />
                   <span>
                     {project.title}
-                    <svg
-                      class="hidden group-hover:inline-block"
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="20"
-                      height="20"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        fill="currentColor"
-                        fill-rule="evenodd"
-                        d="M4.22 11.78a.75.75 0 0 1 0-1.06L9.44 5.5H5.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V6.56l-5.22 5.22a.75.75 0 0 1-1.06 0"
-                        clip-rule="evenodd"
-                      />
-                    </svg>
+                    <LinkArrow />
                   </span>
                 </a>
                 <p class="text-neutral-400 text-sm">{project.description}</p>

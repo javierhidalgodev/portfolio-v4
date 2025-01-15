@@ -9,9 +9,8 @@ import Footer from "../components/Footer.astro";
 import Nav from "../components/Nav.astro";
 import LightThemeIcon from "../components/icons/LightThemeIcon.astro";
 import DarkThemeIcon from "../components/icons/DarkThemeIcon.astro";
-import GitHubIcon from "../components/icons/GitHubIcon.astro";
-import LinkedInIcon from "../components/icons/LinkedInIcon.astro";
 import DropdownIcon from "../components/icons/DropdownIcon.astro";
+import MainLinks from "../components/MainLinks.astro";
 ---
 
 <!doctype html>
@@ -40,8 +39,8 @@ import DropdownIcon from "../components/icons/DropdownIcon.astro";
         <div id="main-presentation" class="flex flex-col gap-4">
           <h1 class="flex items-center text-5xl font-bold">
             javier/
-            <span class="text-neutral-400 max-lg:underline">hidalgo</span>
-            <div class="relative">
+            <span class="text-neutral-400">hidalgo</span>
+            <!-- <div class="relative">
               <button class="text-sm"><DropdownIcon /></button>
               <ol
                 id="drowpdown-menu"
@@ -52,7 +51,7 @@ import DropdownIcon from "../components/icons/DropdownIcon.astro";
                 <li><a href="#">/proyectos</a></li>
                 <li><a href="#">/contanto</a></li>
               </ol>
-            </div>
+            </div> -->
           </h1>
           <div>
             <h3 class="text-xl">Full Stack Developer</h3>
@@ -61,25 +60,7 @@ import DropdownIcon from "../components/icons/DropdownIcon.astro";
 
           <Nav />
         </div>
-        <div
-          id="main-links"
-          class="flex gap-4 mt-5 [&>a]:opacity-50 lg:hover:[&>a]:opacity-100"
-        >
-          <a
-            href="https://github.com/javierhidalgodev"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-            <GitHubIcon />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/javierhidalgodev/"
-            rel="noreferrer noopener"
-            target="_blank"
-          >
-            <LinkedInIcon />
-          </a>
-        </div>
+        <MainLinks />
       </div>
       <div
         id="right"

@@ -1,0 +1,40 @@
+---
+import GitHubIcon from "./icons/GitHubIcon.astro";
+import LinkedInIcon from "./icons/LinkedInIcon.astro";
+---
+
+<div
+  id="main-links"
+  class="flex gap-4 mt-5 [&>a]:opacity-50 lg:hover:[&>a]:opacity-100"
+>
+  <a
+    href="https://github.com/javierhidalgodev"
+    rel="noreferrer noopener"
+    target="_blank"
+    class="relative"
+  >
+    <span
+      class="tooltip hidden lg:absolute px-2 py-0.5 bottom-[130%] w-fit bg-text text-background text-sm rounded-full opacity-100"
+      >Github</span
+    >
+    <GitHubIcon />
+  </a>
+  <a
+    href="https://www.linkedin.com/in/javierhidalgodev/"
+    rel="noreferrer noopener"
+    target="_blank"
+    class="relative"
+  >
+    <span
+      class="tooltip hidden lg:absolute px-2 py-0.5 bottom-[130%] w-fit bg-text text-background text-sm rounded-full opacity-100"
+      >LinkedIn</span
+    >
+    <LinkedInIcon />
+  </a>
+</div>
+
+<style>
+  #main-links > a:hover .tooltip {
+    @apply lg:block;
+  }
+</style>
